@@ -464,8 +464,9 @@ local profile = {
 		0x44, --Felicia 41236KK
 		0x52, --Aulbath 41236PP
 		0x05, --Huitzil GC
-		0x22, --Huitzil 63214KK
-		0x5A, --Huitzil 623P
+		0x22, --Huitzil 63214KK. 236KK
+		0x5A, --Huitzil 421P (Laser)
+		0x5C, --Huitzil 421P (Bullets)
 		0x70, --Pyron 41236PP/KK
 	}, 
 	no_box = { --special throws
