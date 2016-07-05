@@ -790,7 +790,7 @@ for game in ipairs(profile) do
 	g.unpushable   = g.unpushable   or function() end
 	g.unthrowable  = g.unthrowable  or function() end
 	g.projectile_active = g.projectile_active or function(obj)
-		if rw(obj.base) > 0x0100 and rb(obj.base + 0x04) == 0x02 then
+		if rw(obj.base) > 0x0100 and rb(obj.base + 0x04) >= 0x02 then
 			return true
 		end
 	end
