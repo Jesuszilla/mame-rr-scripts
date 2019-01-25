@@ -772,7 +772,7 @@ local profile = {
 for game in ipairs(profile) do
 	local g = profile[game]
 	g.box_type = g.offset.id_ptr and "id ptr" or "hitbox ptr"
-	g.ground_level = g.ground_level or -0x0F
+	g.ground_level = g.ground_level or -0x10
 	g.offset.player_space = g.offset.player_space or 0x400
 	g.offset.pos_x = g.offset.pos_x or 0x10
 	g.offset.pos_y = g.offset.pos_y or g.offset.pos_x + 0x4
